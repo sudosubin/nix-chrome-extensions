@@ -1,0 +1,25 @@
+{
+  "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
+  "formatter": {
+    "enabled": true,
+    "indentStyle": "space"
+  },
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "performance": {
+        "noAccumulatingSpread": "off"
+      },
+      "recommended": true,
+      "style": {
+        "noInferrableTypes": "off"
+      },
+      "suspicious": {
+        "noExplicitAny": "off"
+      }
+    }
+  },
+  "organizeImports": {
+    "enabled": true
+  }
+}
