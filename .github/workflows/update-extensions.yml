@@ -49,7 +49,10 @@ jobs:
         with:
           ref: ${{ github.head_ref }}
 
-      - uses: nixbuild/nix-quick-install-action@v28
+      - uses: cachix/install-nix-action@v27
+        with:
+          github_access_token: ${{ github.token }}
+          nix_path: nixpkgs=channel:nixos-unstable
 
       - uses: actions/download-artifact@v4
         with:
