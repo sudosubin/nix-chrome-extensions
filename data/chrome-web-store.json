@@ -16,6 +16,14 @@
     "lastUpdated": "2024-06-06T16:22:27.735Z"
   },
   {
+    "id": "cofdbpoegempjloogbagkncekinflcnj",
+    "pname": "deepl-translate",
+    "version": "1.19.1",
+    "sha256": "0zbzz9bvyiq3glvg6wy0h9rh328bbgix3zbjcmrg9xpxcvfabr64",
+    "published": "2024-05-24",
+    "lastUpdated": "2024-06-08T13:20:38.774Z"
+  },
+  {
     "id": "ddkjiahejlhfcafbddmgiahcphecmpfh",
     "pname": "ublock-origin-lite",
     "version": "2024.6.2.1013",
