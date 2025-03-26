@@ -2,33 +2,33 @@
   {
     "id": "aeblfdkhhhdcdjpifhhbdiojplfjncoa",
     "pname": "_1password-password-manager",
-    "version": "2.24.2",
-    "sha256": "0yy2mrbawxz4y1gmg62ylr7kwqppxlxl1sjyacmi5z01x57iqlri",
-    "published": "2024-05-23",
-    "lastUpdated": "2024-06-06T16:22:27.789Z"
+    "version": "8.10.68.14",
+    "sha256": "0r0hbfgr8kp2lhx62hpia7r4his3vmbkd2dcp2wfnc1h259ciji4",
+    "published": "2025-03-19",
+    "lastUpdated": "2025-03-26T14:00:18.778Z"
   },
   {
     "id": "anchoacphlfbdomdlomnbbfhcmcdmjej",
     "pname": "neutral-face-emoji-tools",
     "version": "3.3.0",
     "sha256": "1iywll3zsjzhj8jxmh9s8f4b4nnavnx63gcgn67yfazcgk05f9ig",
-    "published": "2022-08-08",
-    "lastUpdated": "2024-06-06T16:22:27.735Z"
+    "published": "2024-10-13",
+    "lastUpdated": "2025-03-26T14:00:17.410Z"
   },
   {
     "id": "cofdbpoegempjloogbagkncekinflcnj",
     "pname": "deepl-translate",
-    "version": "1.19.1",
-    "sha256": "0zbzz9bvyiq3glvg6wy0h9rh328bbgix3zbjcmrg9xpxcvfabr64",
-    "published": "2024-05-24",
-    "lastUpdated": "2024-06-08T13:20:38.774Z"
+    "version": "1.42.0",
+    "sha256": "0n08xddaia8lkfy6qh5kcqdbbl3f17l341rf58hawgn8yv515m9p",
+    "published": "2025-03-14",
+    "lastUpdated": "2025-03-26T14:00:17.645Z"
   },
   {
     "id": "ddkjiahejlhfcafbddmgiahcphecmpfh",
     "pname": "ublock-origin-lite",
-    "version": "2024.6.2.1013",
-    "sha256": "00ps3js2l8n0spk6r1hgqy1l2lsnv3m2r5nya1wyzwmnahk9n5lq",
-    "published": "2024-06-04",
-    "lastUpdated": "2024-06-06T16:22:34.169Z"
+    "version": "2025.3.23.1241",
+    "sha256": "0rjhz6xcm3qflbzch4rqmgcayk64x8w6zg0m5rgha3jw5d8h9nfi",
+    "published": "2025-03-25",
+    "lastUpdated": "2025-03-26T14:00:18.881Z"
   }
 ]
