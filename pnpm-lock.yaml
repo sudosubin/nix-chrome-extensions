@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   chrome-webstore:
-    specifier: ^2.0.1
-    version: 2.0.1
+    specifier: ^2.0.2
+    version: 2.0.2
   commander:
     specifier: ^12.1.0
     version: 12.1.0
@@ -403,11 +403,11 @@ packages:
     engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
     dev: true
 
-  /chrome-webstore@2.0.1:
-    resolution: {integrity: sha512-J17/mkRHGmcA4CcBkuhL3iRBSHt94+qrFBqKPmUQsVz3ElkVIVZ45kvzqMA0BuOq10EtmsK0I6qvRO4cKjBxrQ==}
+  /chrome-webstore@2.0.2:
+    resolution: {integrity: sha512-bZszhG1KkyIna0tr1Biq9pzs7AICYINVp0VXawkeittlJBl10YaNjBaCwSbEhVNfC5v8WbNsZ7SRgZ5HHac1kQ==}
     engines: {node: '>=8.0.0'}
     dependencies:
-      request-compose: 2.1.6
+      request-compose: 2.1.7
     dev: false
 
   /cli-cursor@4.0.0:
@@ -789,8 +789,8 @@ packages:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
     dev: true
 
-  /request-compose@2.1.6:
-    resolution: {integrity: sha512-S07L+2VbJB32WddD/o/PnYGKym63zLVbymygVWXvt8L79VAngcjAxhHaGuFOICLxEV90EasEPzqPKKHPspXP8w==}
+  /request-compose@2.1.7:
+    resolution: {integrity: sha512-27amNkWTK4Qq25XEwdmrhb4VLMiQzRSKuDfsy1o1griykcyXk5MxMHmJG+OKTRdO9PgsO7Kkn7GrEkq0UAIIMQ==}
     engines: {node: '>=12.0.0'}
     dev: false
 
