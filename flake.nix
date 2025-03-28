@@ -16,6 +16,7 @@
       devShells = forAllSystems (pkgs: {
         default = pkgs.mkShell {
           nativeBuildInputs = with pkgs; [
+            go-crx3
             nodejs-slim
             nodePackages.pnpm
           ];
@@ -25,9 +26,7 @@
       overlays = {
         default = final: prev:
           let
-            buildChromeExtension = prev.callPackage ./nix/build-chrome-extension.nix {
-              go-crx3 = prev.callPackage ./nix/go-crx3.nix { };
-            };
+            buildChromeExtension = prev.callPackage ./nix/build-chrome-extension.nix { };
 
             loadGenerated = { site, prodversion ? prev.chromium.version }:
               let

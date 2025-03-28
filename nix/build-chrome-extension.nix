@@ -13,14 +13,17 @@ stdenvNoCC.mkDerivation (
     nativeBuildInputs = [ go-crx3 ];
 
     unpackPhase = ''
+      runHook preUnpack
       cp $src ./out.crx
       crx3 unpack ./out.crx
+      runHook postUnpack
     '';
 
     installPhase = ''
+      runHook preInstall
       mkdir -p "$out"
       cp -R ./out/* "$out"
-      rm -rf "$out/_metadata"
+      runHook postInstall
     '';
   }
 )
