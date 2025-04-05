@@ -1,6 +1,10 @@
 {
   "chrome-web-store": [
     {
+      "id": "aapbdbdomjkkjkaonfhkkikfgjllcleb",
+      "pname": "google-translate"
+    },
+    {
       "id": "aeblfdkhhhdcdjpifhhbdiojplfjncoa",
       "pname": "_1password-password-manager"
     },

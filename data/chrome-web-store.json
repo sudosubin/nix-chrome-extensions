@@ -1,5 +1,13 @@
 [
   {
+    "id": "aapbdbdomjkkjkaonfhkkikfgjllcleb",
+    "pname": "google-translate",
+    "version": "2.0.16",
+    "sha256": "00nw8ld9ggyrvhymrf0vxqicrlznyxs7pgmris5kpccb225m6kk7",
+    "published": "2024-09-05",
+    "lastUpdated": "2025-04-05T04:39:02.066Z"
+  },
+  {
     "id": "aeblfdkhhhdcdjpifhhbdiojplfjncoa",
     "pname": "_1password-password-manager",
     "version": "8.10.70.27",
