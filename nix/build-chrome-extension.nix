@@ -3,7 +3,7 @@
 { id, pname, sha256, url, ... }@args:
 
 stdenvNoCC.mkDerivation (
-  (removeAttrs args [ "id" "pname" "sha256" "url" ]) // {
+  (removeAttrs args [ "pname" "sha256" "url" ]) // {
     pname = "chrome-extension-${pname}";
 
     src = fetchurl {
