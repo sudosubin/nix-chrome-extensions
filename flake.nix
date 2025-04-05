@@ -3,11 +3,9 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
-    flake-compat.url = "github:edolstra/flake-compat";
-    flake-compat.flake = false;
   };
 
-  outputs = { self, nixpkgs, ... }:
+  outputs = { self, nixpkgs }:
     let
       forAllSystems = with nixpkgs.lib; f: genAttrs platforms.unix (system: f (import nixpkgs { inherit system; }));
 
