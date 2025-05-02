@@ -4,7 +4,6 @@
     "pname": "google-translate",
     "version": "2.0.16",
     "sha256": "00nw8ld9ggyrvhymrf0vxqicrlznyxs7pgmris5kpccb225m6kk7",
-    "published": "2024-09-05",
     "lastUpdated": "2025-04-05T04:39:02.066Z"
   },
   {
@@ -12,7 +11,6 @@
     "pname": "_1password-password-manager",
     "version": "8.10.72.27",
     "sha256": "0g79j2qsmnhg0fq3d2asj632v88cipcbq56aimgaqsxl7yv079i8",
-    "published": "2025-04-17",
     "lastUpdated": "2025-04-17T12:56:55.074Z"
   },
   {
@@ -20,7 +18,6 @@
     "pname": "neutral-face-emoji-tools",
     "version": "3.3.0",
     "sha256": "1iywll3zsjzhj8jxmh9s8f4b4nnavnx63gcgn67yfazcgk05f9ig",
-    "published": "2025-04-29",
     "lastUpdated": "2025-04-30T06:50:25.252Z"
   },
   {
@@ -28,7 +25,6 @@
     "pname": "deepl-translate",
     "version": "1.44.0",
     "sha256": "062f40q2s80g3ghfdmlmi14jfw6di1pb33r7h5r64bms8qblmydw",
-    "published": "2025-04-28",
     "lastUpdated": "2025-04-28T09:05:58.538Z"
   },
   {
@@ -36,7 +32,6 @@
     "pname": "ublock-origin-lite",
     "version": "2025.4.27.1394",
     "sha256": "07dpfwa38a9h7dj0grnrm1j6a3w1z488kl6gzp74m0xi31qrsm71",
-    "published": "2025-04-29",
     "lastUpdated": "2025-04-29T09:47:07.643Z"
   }
 ]
