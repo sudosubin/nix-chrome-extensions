@@ -9,9 +9,9 @@
   {
     "id": "aeblfdkhhhdcdjpifhhbdiojplfjncoa",
     "pname": "_1password-password-manager",
-    "version": "8.11.4.27",
-    "sha256": "0m37p07kr7573qla90w66112bl3q4a3psihrh61vbkv3f47p460j",
-    "lastUpdated": "2025-08-07T04:59:32.088Z"
+    "version": "8.11.7.2",
+    "sha256": "1cmlycg26qqb68ml0c5pb6ng7xk0djnbaibpfnq4kak2qdw7d94z",
+    "lastUpdated": "2025-08-21T06:56:29.328Z"
   },
   {
     "id": "anchoacphlfbdomdlomnbbfhcmcdmjej",
@@ -30,8 +30,8 @@
   {
     "id": "ddkjiahejlhfcafbddmgiahcphecmpfh",
     "pname": "ublock-origin-lite",
-    "version": "2025.817.1539",
-    "sha256": "0rhg76waxkmx41j66zyzk7x3gsmnvhf09qbn6sa1z2jp4c94swky",
-    "lastUpdated": "2025-08-19T12:59:56.897Z"
+    "version": "2025.818.1918",
+    "sha256": "0vqln1rdl1pxby7qbia6b9nd5pjppakhv2nings0s08vcxnlbk7m",
+    "lastUpdated": "2025-08-21T06:56:30.897Z"
   }
 ]
