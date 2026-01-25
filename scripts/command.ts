@@ -10,7 +10,8 @@ interface Extension {
   id: string;
   pname: string;
   version: string;
-  sha256: string;
+  url: string;
+  hash: string;
   lastUpdated: string;
 }
 
@@ -27,7 +28,7 @@ interface UpdateOptions {
 }
 
 class ChromeWebStoreExtension {
-  private prodversion = "125.0.6422.141";
+  private prodversion = "144.0.7559.59";
 
   constructor(public id: string) {}
 
@@ -36,19 +37,35 @@ class ChromeWebStoreExtension {
     const crx = path.join(root, "extension.crx");
 
     console.log(`[INFO] download and unzip ${this.id}`);
-    const buffer = await fetch(this.url).then((res) => res.arrayBuffer());
+
+    const redirectResponse = await fetch(this.url, { redirect: "manual" });
+    if (redirectResponse.status === 204) {
+      throw new Error(
+        `Extension ${this.id} is not available (HTTP 204 - extension may be removed from Chrome Web Store)`,
+      );
+    }
+
+    const redirectUrl = redirectResponse.headers.get("location");
+    if (!redirectUrl) {
+      throw new Error(
+        `No redirect URL found for extension ${this.id} (HTTP ${redirectResponse.status})`,
+      );
+    }
+
+    const buffer = await fetch(redirectUrl).then((res) => res.arrayBuffer());
     await fs.writeFile(crx, Buffer.from(buffer));
     await unzip(crx, root);
 
     return {
-      sha256: await this.sha256(crx),
+      url: redirectUrl,
+      hash: await this.sha256(crx),
       version: await this.version(path.join(root, "manifest.json")),
       [Symbol.asyncDispose]: () => fs.rm(root, { recursive: true }),
     };
   }
 
   private async sha256(crx: string) {
-    const proc = exec(`nix-hash --type sha256 --flat --base32 "${crx}"`);
+    const proc = exec(`nix hash file --type sha256 --sri "${crx}"`);
     return (await new Response(proc.stdout).text()).trim();
   }
 
@@ -100,14 +117,14 @@ const update = async ({
   const extension = new ChromeWebStoreExtension(id);
   await using cur = await extension.fetch();
 
-  const hasChange =
-    prev?.sha256 !== cur.sha256 || prev?.version !== cur.version;
+  const hasChange = prev?.hash !== cur.hash || prev?.version !== cur.version;
 
   return {
     id,
     pname,
     version: cur.version,
-    sha256: cur.sha256,
+    url: cur.url,
+    hash: cur.hash,
     lastUpdated: !hasChange ? prev.lastUpdated : new Date().toISOString(),
   };
 };

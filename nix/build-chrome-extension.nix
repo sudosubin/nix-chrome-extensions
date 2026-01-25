@@ -1,13 +1,28 @@
-{ fetchurl, go-crx3, stdenvNoCC }:
+{
+  fetchurl,
+  go-crx3,
+  stdenvNoCC,
+}:
 
-{ id, pname, sha256, url, ... }@args:
+{
+  id,
+  pname,
+  url,
+  hash,
+  ...
+}@args:
 
 stdenvNoCC.mkDerivation (
-  (removeAttrs args [ "pname" "sha256" "url" ]) // {
+  (removeAttrs args [
+    "pname"
+    "hash"
+    "url"
+  ])
+  // {
     pname = "chrome-extension-${pname}";
 
     src = fetchurl {
-      inherit sha256 url;
+      inherit url hash;
     };
 
     nativeBuildInputs = [ go-crx3 ];
