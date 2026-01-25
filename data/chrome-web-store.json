@@ -3,35 +3,40 @@
     "id": "aapbdbdomjkkjkaonfhkkikfgjllcleb",
     "pname": "google-translate",
     "version": "2.0.16",
-    "sha256": "00nw8ld9ggyrvhymrf0vxqicrlznyxs7pgmris5kpccb225m6kk7",
-    "lastUpdated": "2025-04-05T04:39:02.066Z"
+    "url": "https://clients2.googleusercontent.com/crx/blobs/AV8Xwo6MneknR_hKIDwgqKjM05Hu5yqCKhxUg2it-RXj3yVm0tI0RjpxRI67l2sDWf3ooODeNdze28LpjSGZgwx_1C1ADz_r0ypcHfaGw_doB6dLWkYubritckvzoSbzfUoAxlKa5TV5mD5tNfMl0I4SFEDu8yEhhiQU/AAPBDBDOMJKKJKAONFHKKIKFGJLLCLEB_2_0_16_0.crx",
+    "hash": "sha256-Z05TixCLsTuLjrm+e3T39tPMIu4buFw93Nm/lxpF3AI=",
+    "lastUpdated": "2026-01-25T06:24:37.929Z"
   },
   {
     "id": "aeblfdkhhhdcdjpifhhbdiojplfjncoa",
-    "pname": "_1password-password-manager",
-    "version": "8.11.15.5",
-    "sha256": "1gx9yb5z57xqnr7gdjhp793r2nd7f2xb4d9vdkfk29jjcc23c9k7",
-    "lastUpdated": "2025-10-22T13:02:40.795Z"
+    "pname": "_1password",
+    "version": "8.12.0.13",
+    "url": "https://clients2.googleusercontent.com/crx/blobs/AV8Xwo7hf11Tbb40Wnrax6Xg4vaUJUb3PDZ8EJHJ4E-CigIHR21XeLXQy03HhDEIwsHZ4L41-PCdxKXl_ybwuh0TU79KGaRpM0Y0L8KysjU6sZaR8YQFXduLwY0H2BSAL4FoAMZSmuW5OS1HaWBF_HO2Y_YH_FnuGaSpSg/AEBLFDKHHHDCDJPIFHHBDIOJPLFJNCOA_8_12_0_13.crx",
+    "hash": "sha256-CjdvoUKfVvltaQmdvcSqx74uRttrLyHR9aRjcnyYA38=",
+    "lastUpdated": "2026-01-25T06:24:41.705Z"
   },
   {
     "id": "anchoacphlfbdomdlomnbbfhcmcdmjej",
     "pname": "neutral-face-emoji-tools",
     "version": "4.0.0",
-    "sha256": "07i4ixb11zdlnmnr2sagmf2mdypaydq5bjk5ziwx38ba5xw6x848",
-    "lastUpdated": "2025-05-05T08:52:15.091Z"
+    "url": "https://clients2.googleusercontent.com/crx/blobs/AV8Xwo4COAsnMAOk_ZpfcWUEwANBBbATeCglTaqBknUDEjm8E-332en-xixns8I0Ulk6ou-FVXco_XhnvPBeSzwau2MX_FH5KKO2FmDFjnBxbXOjQapcvbMa2mKiCYsJEk8AxlKa5VEQ3OGCI7InF3OA4FiuERY4BQMV/ANCHOACPHLFBDOMDLOMNBBFHCMCDMJEJ_4_0_0_0.crx",
+    "hash": "sha256-iKBueC9qodF5/GXKVXDz6vpWhatPaZFttbT9EFaPJB4=",
+    "lastUpdated": "2026-01-25T06:24:37.870Z"
   },
   {
     "id": "cofdbpoegempjloogbagkncekinflcnj",
-    "pname": "deepl-translate",
-    "version": "1.62.0",
-    "sha256": "0z5wfmd6paf9gxw6y1sbl0ns13rrhvpp6lksarc579n36z00cjm0",
-    "lastUpdated": "2025-10-27T09:50:12.991Z"
+    "pname": "deepl",
+    "version": "1.71.0",
+    "url": "https://clients2.googleusercontent.com/crx/blobs/AV8Xwo6hDjNA-Nmh_pQqfBD-3ruaSrSVk0gA5YXaKsgUaJ3pi5fHhxI4R1LFv_IFz1mPTpJit-RkIVdgAM_-ShgtujZ7Q54hgjLX7qkGgLtEJ3KRN20X1XzIvcX49TsvRd8rAMZSmuUo85ToKrNsnNLtkozIORwYacWxrg/COFDBPOEGEMPJLOOGBAGKNCEKINFLCNJ_1_71_0_0.crx",
+    "hash": "sha256-amIRCaUJrcxUpWpl5dZo3clXw7QnRK9O0e7e0QQHiDI=",
+    "lastUpdated": "2026-01-25T06:24:41.805Z"
   },
   {
     "id": "ddkjiahejlhfcafbddmgiahcphecmpfh",
     "pname": "ublock-origin-lite",
-    "version": "2025.1019.1656",
-    "sha256": "0g6zxcfl22gyaxk13gzgkqma9yzrcfppvmp4d5kv4rm2m7wby0pi",
-    "lastUpdated": "2025-10-22T03:10:54.087Z"
+    "version": "2026.118.1828",
+    "url": "https://clients2.googleusercontent.com/crx/blobs/AV8Xwo4dVYCl2S5UuGN0If1-1p1rYuSlPShCscvPeLuk-PdiRrwRjrg5uBh-xU0xZkCOk9jucZNDImMRA3fidIONrLTPenCMZSEJpepdTyVXnh7h8T2sS8BiD2AHox-h-zKaAMZSmuWPspz2rpHmJ8LbCLa89jA4l616TA/DDKJIAHEJLHFCAFBDDMGIAHCPHECMPFH_2026_118_1828_0.crx",
+    "hash": "sha256-LvzjGKrJlFsUt8HtrKUbHMcdJOXLRv7hjrbNsW+UUxA=",
+    "lastUpdated": "2026-01-25T06:24:38.509Z"
   }
 ]
