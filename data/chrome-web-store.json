@@ -40,6 +40,14 @@
     "lastUpdated": "2026-01-25T06:24:38.509Z"
   },
   {
+    "id": "fcoeoabgfenejglbffodgkkbkcdhcgfn",
+    "pname": "claude",
+    "version": "1.0.40",
+    "url": "https://clients2.googleusercontent.com/crx/blobs/AV8Xwo6_zFf9OrHdIjKBzgMgUgO3Zrwj0DGvJPCOgrZJOMNHBxy9VsHCHl4agjb3pvj1e2-5sGRNguKn9gmas9TzhaafL-rxr_7WMGGR50JRj6pOqq0ZD26Wtk1MAVMjXmVBAMZSmuV5jBjZf9SMjSmofoWHu2srCo_u9A/FCOEOABGFENEJGLBFFODGKKBKCDHCGFN_1_0_40_0.crx",
+    "hash": "sha256-oLx0pUuz3W7YmaV3tYqJq01Yj7I5N32i10GV+Sor2xI=",
+    "lastUpdated": "2026-01-25T06:46:34.119Z"
+  },
+  {
     "id": "fmkadmapgofadopljbjfkapdkoienihi",
     "pname": "react-developer-tools",
     "version": "7.0.1",
