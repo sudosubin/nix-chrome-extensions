@@ -32,12 +32,7 @@ class ChromeWebStoreExtension {
 
   constructor(public id: string) {}
 
-  public async fetch() {
-    const root = await fs.mkdtemp(path.join(os.tmpdir(), "chrome-extensions-"));
-    const crx = path.join(root, "extension.crx");
-
-    console.log(`[INFO] download and unzip ${this.id}`);
-
+  public async getRedirectUrl(): Promise<string> {
     const redirectResponse = await fetch(this.url, { redirect: "manual" });
     if (redirectResponse.status === 204) {
       throw new Error(
@@ -52,6 +47,16 @@ class ChromeWebStoreExtension {
       );
     }
 
+    return redirectUrl;
+  }
+
+  public async fetch() {
+    const root = await fs.mkdtemp(path.join(os.tmpdir(), "chrome-extensions-"));
+    const crx = path.join(root, "extension.crx");
+
+    console.log(`[INFO] download and unzip ${this.id}`);
+
+    const redirectUrl = await this.getRedirectUrl();
     const buffer = await fetch(redirectUrl).then((res) => res.arrayBuffer());
     await fs.writeFile(crx, Buffer.from(buffer));
     await unzip(crx, root);
@@ -115,6 +120,13 @@ const update = async ({
   prev,
 }: UpdateOptions): Promise<Extension> => {
   const extension = new ChromeWebStoreExtension(id);
+  const redirectUrl = await extension.getRedirectUrl();
+
+  if (prev && prev.url === redirectUrl) {
+    console.log(`[INFO] skip ${id}: url unchanged`);
+    return prev;
+  }
+
   await using cur = await extension.fetch();
 
   const hasChange = prev?.hash !== cur.hash || prev?.version !== cur.version;
