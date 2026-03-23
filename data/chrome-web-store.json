@@ -3,7 +3,7 @@
     "id": "aapbdbdomjkkjkaonfhkkikfgjllcleb",
     "pname": "google-translate",
     "version": "2.0.16",
-    "url": "https://clients2.googleusercontent.com/crx/blobs/AQx-wa4-fs35ng858EIFChviaRsKhIrI3EvaQ1gQ5X25LSGOZU6XBT6d7TpgwuYJY7I7qJF5ZzeMmPf3vzJd7omn6ZPZXg32wjPmqdf0KOjNXPsZOi7I7qOXJyYU4TcdMqEAxlKa5SG5Lp_Vjk0y44sSnDU_T2rrpO9W/AAPBDBDOMJKKJKAONFHKKIKFGJLLCLEB_2_0_16_0.crx",
+    "url": "https://clients2.googleusercontent.com/crx/blobs/Aa54OTC3xejVH-knlZn8RnzkF0C-6J7_z5q3ENJQTQEfkkSBNd8w3vYwF06lZWvWXn8bUN93SvB5-gVstOJkP5MlsdEOkkL8A6WbuuU9_ia8mtj9gSQkK8rRcNED6Cj8Z6cAxlKa5WofHdfH0OcP7tiqamZl57rRvPz7/AAPBDBDOMJKKJKAONFHKKIKFGJLLCLEB_2_0_16_0.crx",
     "hash": "sha256-Z05TixCLsTuLjrm+e3T39tPMIu4buFw93Nm/lxpF3AI=",
     "lastUpdated": "2026-01-25T06:24:37.929Z"
   },
@@ -11,7 +11,7 @@
     "id": "aeblfdkhhhdcdjpifhhbdiojplfjncoa",
     "pname": "_1password",
     "version": "8.12.8.26",
-    "url": "https://clients2.googleusercontent.com/crx/blobs/AQx-wa4v6s8nfK4gNf3TzaoQCq_VUyxrGMnDq_L4wzV7dpuoBHUkTiylcfNHpz5yWhztOcceOh9RuZ7grLbaduokday2bdsFOtYNlK5vrkpoESUe3W6cCulQSI2e2PRuPVrMAMZSmuXuLiJzaOTfxN-uoNehZKGNduRRiQ/AEBLFDKHHHDCDJPIFHHBDIOJPLFJNCOA_8_12_8_26.crx",
+    "url": "https://clients2.googleusercontent.com/crx/blobs/Aa54OTA3EfC6JoDT-8IJRaqXEX-GrZqBONwpnkUQ4MAr35Un-ylc9EPtqMtKK9pYRWaOqcfXvXAS0Bzr0hQL6hoIDVgz7o49_L9lQXokLvn-kev3r7uD1cuhDHVkThsRKb4jAMZSmuXoVr2u_Lsp258Kv3prYWYsugLUTw/AEBLFDKHHHDCDJPIFHHBDIOJPLFJNCOA_8_12_8_26.crx",
     "hash": "sha256-k1Y+5hiWmnb6l8BIepT+MveK8QK7qQGQCZREj0+mt1w=",
     "lastUpdated": "2026-03-18T10:07:01.515Z"
   },
@@ -19,17 +19,17 @@
     "id": "anchoacphlfbdomdlomnbbfhcmcdmjej",
     "pname": "neutral-face-emoji-tools",
     "version": "4.0.0",
-    "url": "https://clients2.googleusercontent.com/crx/blobs/AQx-wa5hGaC1SJPNkIRrVtj2NItEMCxO45z-HNLaQqgJrlHL7p8Vx4hvqOCKTfkcAHBlfbJ3AkvrTy07VbgxcM6G1YJi_tqCMXtDrWMXOCW4LmOKpIwWOheShgRg46XGfSwAxlKa5b1cBlkkjiLQ4kTayUlrx8u25CRS/ANCHOACPHLFBDOMDLOMNBBFHCMCDMJEJ_4_0_0_0.crx",
+    "url": "https://clients2.googleusercontent.com/crx/blobs/Aa54OTAJ8sF-M5gw9323aNYhn3Rmh5hqBrmOwVUTlM0MP9bHwXjP4Q-LQgRDfqjNvXpvH-MldtUIpGFiSbLZPANdvoq3akHYK_Jhq7gHZGCkpgBa2Vx_4gJPokmcWPfyvPQAxlKa5Z6jNCaHzYjcmMhF6lLEA91xVEdC/ANCHOACPHLFBDOMDLOMNBBFHCMCDMJEJ_4_0_0_0.crx",
     "hash": "sha256-iKBueC9qodF5/GXKVXDz6vpWhatPaZFttbT9EFaPJB4=",
     "lastUpdated": "2026-01-25T06:24:37.870Z"
   },
   {
     "id": "cofdbpoegempjloogbagkncekinflcnj",
     "pname": "deepl",
-    "version": "1.79.0",
-    "url": "https://clients2.googleusercontent.com/crx/blobs/AQx-wa6v0_kPH9ko1S2f_iQvQICloec0SiZtMrL11LyCV73hgOH3L8hpLrJDjEev1GUJpjM0IZMQy-qe7tJ-YSCzpvYGK5pNGY4EwEwYgVvTuKH6rrMQWhOD34z5Db5L9eLvAMZSmuUk2C4px4l2Rc61Ba7a7W_zx9wjrg/COFDBPOEGEMPJLOOGBAGKNCEKINFLCNJ_1_79_0_0.crx",
-    "hash": "sha256-6t59kTD04TFjyNz6DKYTGHMbzJinuuZreOL67y5zO8A=",
-    "lastUpdated": "2026-03-16T12:00:27.835Z"
+    "version": "1.81.0",
+    "url": "https://clients2.googleusercontent.com/crx/blobs/Aa54OTDVnS8DK8rfwiZWrbjQwYKn72nriAom0XKYc614BGsxtTkcg1oR6EdHNwd-W91CblUgattqgMf9WwSJ-jayX7iTYaIvTexw_rw0n8B-eyl4G132M1I-Pl447ss9Xh2yAMZSmuVuSYoez_kkTYzTJqIf0xH_gfYSLg/COFDBPOEGEMPJLOOGBAGKNCEKINFLCNJ_1_81_0_0.crx",
+    "hash": "sha256-BMRMvMxzlWgfZKrggA7IBSjni7m67uL4edidkeLH+yg=",
+    "lastUpdated": "2026-03-23T09:08:46.260Z"
   },
   {
     "id": "ddkjiahejlhfcafbddmgiahcphecmpfh",
