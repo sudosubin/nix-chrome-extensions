@@ -3,7 +3,7 @@
     "id": "aapbdbdomjkkjkaonfhkkikfgjllcleb",
     "pname": "google-translate",
     "version": "2.0.16",
-    "url": "https://clients2.googleusercontent.com/crx/blobs/Aa54OTC3xejVH-knlZn8RnzkF0C-6J7_z5q3ENJQTQEfkkSBNd8w3vYwF06lZWvWXn8bUN93SvB5-gVstOJkP5MlsdEOkkL8A6WbuuU9_ia8mtj9gSQkK8rRcNED6Cj8Z6cAxlKa5WofHdfH0OcP7tiqamZl57rRvPz7/AAPBDBDOMJKKJKAONFHKKIKFGJLLCLEB_2_0_16_0.crx",
+    "url": "https://clients2.googleusercontent.com/crx/blobs/AQx-wa4-fs35ng858EIFChviaRsKhIrI3EvaQ1gQ5X25LSGOZU6XBT6d7TpgwuYJY7I7qJF5ZzeMmPf3vzJd7omn6ZPZXg32wjPmqdf0KOjNXPsZOi7I7qOXJyYU4TcdMqEAxlKa5SG5Lp_Vjk0y44sSnDU_T2rrpO9W/AAPBDBDOMJKKJKAONFHKKIKFGJLLCLEB_2_0_16_0.crx",
     "hash": "sha256-Z05TixCLsTuLjrm+e3T39tPMIu4buFw93Nm/lxpF3AI=",
     "lastUpdated": "2026-01-25T06:24:37.929Z"
   },
@@ -42,10 +42,10 @@
   {
     "id": "fcoeoabgfenejglbffodgkkbkcdhcgfn",
     "pname": "claude",
-    "version": "1.0.63",
-    "url": "https://clients2.googleusercontent.com/crx/blobs/AQx-wa7mZBZsELIIPwzR1_m00OHtVHBGSFhtER-B6d5o_36XTU8KuRACZw6tJffsgb-iPvmm0X9fk7g8-ewhtyvM50j2fS-YOO7iHSxvbNY_CMpeDtvtDszoDTJscSNV2cD5AMZSmuUFtRZdambiARSOU1DE0fAz7kt1LQ/FCOEOABGFENEJGLBFFODGKKBKCDHCGFN_1_0_63_0.crx",
-    "hash": "sha256-QASBfjS/EFwMQHG9XGtJjPk1eXUdS/AeeXkBxenV94Q=",
-    "lastUpdated": "2026-03-19T23:54:15.022Z"
+    "version": "1.0.64",
+    "url": "https://clients2.googleusercontent.com/crx/blobs/AQx-wa4yKuuzeXROjpgSV-sqs4revZSAU7pozIGWk87G3gjEpc9wCWIW-ySEZWer_REBRGx0ofWaiUNNKuxdkdUFHwJekGiPQA5wwacvYNd0_H9O-4RjUnRMlGiAaiiBIvE_AMZSmuWaMsp6Rxe-0muqnsnMqmn1nlhl7g/FCOEOABGFENEJGLBFFODGKKBKCDHCGFN_1_0_64_0.crx",
+    "hash": "sha256-f5sztKYhrFjHYH7TZ/ApCaQv5sMw4EVTDED/Fdca3kU=",
+    "lastUpdated": "2026-03-25T21:57:44.564Z"
   },
   {
     "id": "fmkadmapgofadopljbjfkapdkoienihi",
